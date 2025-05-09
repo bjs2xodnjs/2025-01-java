@@ -5,7 +5,7 @@ public class VariableExchangeExample {
         int x = 3, y = 5;
         System.out.println("x:" + x + ", y:" + y); // x: 3, y: 5
 
-
+    // temp 원래 가지고 있는 X의 값을 이동하는 것.
       int temp = x;
       x = y;
       y = temp;
