@@ -10,7 +10,7 @@ public class Mission01 {
             int result = (int)(Math.random() * 6.0) + 5;
 
          if(result < 5 || result > 10) {
-             System.out.println("틀렸음!");
+             System.out.println("틀렸음!");.
              break;
          }
         }
