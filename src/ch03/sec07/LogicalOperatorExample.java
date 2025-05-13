@@ -5,6 +5,20 @@ public class LogicalOperatorExample {
         int num1 = 5;
         int num2 = 0;
 
-        System.out.printf("%d > %d : %b\n");
+        System.out.printf("%d > %d : %b\n", num1, num2, num1 > num2);
+        System.out.printf("5 > 0 && 5 < 2 : %b\n", 5 > 0 && 5 < 2);
+        System.out.printf("5 > 0 && 5 > 2 : %b\n", 5 > 0 && 5 > 2);
+        System.out.printf("5 > 0 && 5 < 2 && 10 > 2 : %b\n", 5 > 0 && 5 < 2 && 10 > 2);
+        // 1) 5 > 0 >> true
+        // 2) 5 > 3 >> false
+        // 3) true > false >> false
+
+        System.out.println();
+        System.out.printf("5 > 0 || 5 < 2 : %b\n", 5 > 0 || 5 < 2);
+        // 1) 5 > 0 >> true
+        System.out.printf("5 < 0 || 5 < 2 : %b\n", 5 < 0 || 5 < 2);
+        System.out.println();
+        System.out.printf("!(5 < 0 || 5 < 2) : %b\n", !(5 < 0 || 5 < 2));
+        System.out.printf("!false : %b\n", !false);
     }
 }
