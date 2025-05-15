@@ -9,7 +9,7 @@ public class Misson11 {
                 System.out.printf("%d x %d = %d\n", i, k, i * k);
 
             }
-            System.out.println("----------------------");
+            System.out.println("----------------------"); // .
         }
     }
 }
