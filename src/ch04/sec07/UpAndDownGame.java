@@ -10,7 +10,7 @@ public class UpAndDownGame {
 
         boolean p = true;
         while (p) {
-            System.out.println("1~100 사이 숫자입력");
+            System.out.println("1~100 사이 숫자를 입력해주세요 > ");
             int num = scanner.nextInt();
             if(num < answer) {
                 System.out.println("Down!");
@@ -18,13 +18,13 @@ public class UpAndDownGame {
                 System.out.println("UP!");
 
             } else {
+                System.out.println("정답!!");
+                break; // break를 감싸고 있는 가장 가까운 반복문을 빠져나온다.
 
 
             }
 
-
-
-
         }
+        System.out.println("--끝--");
     }
 }
