@@ -24,10 +24,10 @@ public class NumberBaseballGame {
         Scanner scanner = new Scanner(System.in);
         while(true) {
             System.out.printf("숫자 %d개를 입력 > ", answerArr.length);
-            String input = scanner.nextLine();
+            String input = scanner.nextLine(); //567
             // System.out.println("input:" + input);
             int s = 0, b = 0;
-            String[] inputStrArr = input.split("");
+            String[] inputStrArr = input.split(""); // 스트링 배열의 주소값
             if(inputStrArr.length != answerArr.length) {
                 continue;
             }
@@ -44,6 +44,7 @@ public class NumberBaseballGame {
                             } else {
                                 b++;
                             }
+                            break;
                     }
                 }
             }
