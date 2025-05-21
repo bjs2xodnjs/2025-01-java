@@ -19,7 +19,7 @@ public class EnhancedFor {
         System.out.println("-----------");
         for(int i=0; i<intArr.length; i++) {
             int num = intArr[i];
-            System.out.println(num);
+            System.out.println(num);//
         }
 
     }

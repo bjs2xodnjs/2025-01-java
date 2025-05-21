@@ -11,6 +11,6 @@ public class Misson04 {
             num += num + arr[i]; //num = num + arr[1]
 
         }
-        System.out.println(num);
+        System.out.println(num);//
     }
 }

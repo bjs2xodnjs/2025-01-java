@@ -12,7 +12,7 @@ public class Misson03result {
 
         System.out.printf("[%d", arr[0]);
         for (int i=1; i<arr.length; i++) {
-            System.out.printf(", %d", arr[i]);
+            System.out.printf(", %d", arr[i]);//
 
 
             }

@@ -14,7 +14,7 @@ public class NumberBaseballGame {
             for(int z=0; z<i; z++) {
                 if(answerArr[z] == rVal) {
                     i--;
-                    break;
+                    break; //
                 }
             }
         }
